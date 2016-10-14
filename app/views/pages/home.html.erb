@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edgar's Page</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" type = "text/css" href = "styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <style>
+          body{
+    background-color: #19194C;
+    height: 100%;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+}
+
+h5, h4, h3{
+    color:white;
+    text-align: center;
+}
+
+h4{
+    margin-top: -15px;
+}
+
+h3{
+    margin-top: -15px;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: red;
+    font-style: bold;
+    font-size: 34px;
+}
+
+#rubyimg{
+    float:left;
+    height:400px;
+    width: 400px;
+}
+
+#nodeimg{
+    float:right;
+     height:400px;
+     width: 400px;
+}
+
+#nodeimg:hover{
+    opacity: 0.5;
+}
+
+#imgcontainer{
+    margin: 100px auto;
+    width: 850px;
+    background-color: black;
+    
+}
+
+#rubyimg:hover{
+    opacity: 0.5;
+}
+          
+        </style>
+    </head>
+    <body>
+        <div id = "container">
+            <div>
+                <h5>Edgar Ruiz</h5>
+                <h4>Web Developer</h4>
+                <h3> <a href = "http://emr.thecompletewebhosting.com" target="_blank">Website</a></h3>
+            </div>
+            
+            <div id = "imgcontainer" >
+                <img id = "rubyimg" src = "http://learnfromguru.com/wp-content/uploads/2016/08/ruby-on-rails-training-courses.png">
+                <img id = "nodeimg" src = "https://camo.githubusercontent.com/009dff4f162c762ed0f6f26ad4436eb118a629b2/687474703a2f2f7777772e646d7574682e6f72672f66696c65732f6e6f64656a732d6461726b2e706e67">
+            </div>
+        </div>
+        <%= link_to 'About', about_path %>
+    </body>
+</html>
