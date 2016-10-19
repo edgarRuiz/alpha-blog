@@ -42,7 +42,7 @@ class ArticlesController < ApplicationController
     else 
       render 'edit'
     end
-    
+  
   end
   
   private
