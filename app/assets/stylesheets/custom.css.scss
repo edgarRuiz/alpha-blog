@@ -79,6 +79,22 @@ footer{
   
 }
 
+.badge{
+  background-color: #0C76B4;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight:bold;
+  margin-right: 1px;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
+.badge a{
+  color: white;
+}
+
 footer a:hover{
   color: #222;
 }
